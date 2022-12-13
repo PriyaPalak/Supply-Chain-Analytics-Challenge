@@ -13,12 +13,12 @@ Being a part of the Supply Chain Analytics team, design a dashboard to track the
 You are provided with 6 tables containing data from 6 months - March to August.
 
 - dim_customers: contains customer_id, their name and the city they belong to. In total, the company has **35 retail stores** as its customers in the 3 cities.
-- dim_products: contains product_id, its name and the category it belongs to. The company is manufacturing 18 products across 3 categories namely Dairy,Food and Beverages.
+- dim_products: contains product_id, its name and the category it belongs to. The company is manufacturing **18 products** across **3 categories** namely Dairy,Food and Beverages.
 - dim_date: contains order_placement_date, month and week number.
 - dim_targets_orders: contains cutsomer_id and OT, IF AND OTIF delivery target percentages for each customer
-- fact_order_lines: contains order_id, order_date, customer_id, product_id, ordered_quantity, agreed_delivery_date, actual_delivery_date,delivered_quantity and whether it was delivered in-full, on-time and on-time in-full. It contains more than **57000** records at **product level**.
+- fact_order_lines: contains order_id, order_date, customer_id, product_id, ordered_quantity, agreed_delivery_date, actual_delivery_date,delivered_quantity and whether it was delivered in-full, on-time and on-time in-full. It contains more than **57000 records** at **product level**.
 
-- fact_orders_aggregate: contains order_id, customer_id, order_date and whether the order was delivered on-time, in-full and on-time in-full. It contains more than **31000** records at the **order level**.
+- fact_orders_aggregate: contains order_id, customer_id, order_date and whether the order was delivered on-time, in-full and on-time in-full. It contains more than **31000 records** at the **order level**.
 
 
 
