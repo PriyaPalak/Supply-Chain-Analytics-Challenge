@@ -1,4 +1,4 @@
-# :truck: Codebasics Supply Chain Analytics Challenge
+# :truck: CodeBasics Supply Chain Analytics Challenge
 
 ## :muscle: About the Challenge
 
